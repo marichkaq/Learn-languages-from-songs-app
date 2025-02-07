@@ -1,0 +1,133 @@
+.user-detail-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.user-info {
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 5px 5px 0 #000;
+}
+
+.user-info h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.user-info p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.user-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.user-action-button {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.edit-button {
+    background-color: #ff00ff;
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #e000e0;
+}
+
+.delete-button {
+    background-color: #fff;
+    color: #000;
+}
+
+.delete-button:hover {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.top-songs {
+    margin-top: 40px;
+}
+
+.top-songs h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+}
+
+.songs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.song-card {
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 5px 5px 0 #000;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.song-card:hover {
+    transform: translateY(-5px);
+}
+
+.song-thumbnail {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.song-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    color: #000;
+}
+
+.song-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+.back-button {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff00ff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #ff00ff;
+    border-radius: 5px;
+    background-color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #ff00ff;
+    color: #000;
+    border: 2px solid #000;
+}

@@ -1,0 +1,103 @@
+.song-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+.song-form-back-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.song-form-back-button:hover {
+    background: #333;
+    transform: scale(1.05);
+}
+
+
+.song-form {
+    margin-top: 30px;
+}
+
+.song-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.song-form input,
+.song-form textarea,
+.song-form select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.song-form input:focus,
+.song-form textarea:focus,
+.song-form select:focus {
+    outline: none;
+    border-color: #ff00ff;
+    box-shadow: 0 0 4px rgba(255, 0, 255, 0.3);
+}
+
+.song-form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+.song-form .song-form-submit {
+    width: 100%;
+    padding: 14px;
+    background: #ff00ff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.song-form .song-form-submit:hover {
+    background: #e000e0;
+}
+
+.song-form-error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .song-form-container {
+        padding: 20px;
+    }
+
+    .song-form input,
+    .song-form textarea,
+    .song-form select,
+    .song-form-submit {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

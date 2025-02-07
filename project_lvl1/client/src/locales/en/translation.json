@@ -1,0 +1,101 @@
+{
+  "general": {
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "back": "Back",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  },
+  "home": {
+    "appName": "Learn Language From Songs",
+    "welcome": "Welcome, {{username}}!",
+    "guest": "Guest",
+    "searchPlaceholder": "Search for a song...",
+    "languageSwitcher": {
+      "french": "French",
+      "italian": "Italian",
+      "ukrainian": "Ukrainian"
+    },
+    "allLanguages": "All Languages",
+    "favourites": "Favourites",
+    "profile": "Profile",
+    "rightsReserved": "All rights reserved."
+  },
+  "song": {
+    "addSong": "Add Song",
+    "editSong": "Edit Song",
+    "songDetails": "Song Details",
+    "title": "Title",
+    "artist": "Artist",
+    "lyrics": "Lyrics",
+    "translation": "Translation",
+    "videoUrl": "Video URL",
+    "language": "Language",
+    "noVideo": "No video available"
+  },
+  "auth": {
+    "login": "Log In",
+    "logout": "Log Out",
+    "register": "Register",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "languagePreference": "Preferred Language",
+    "birthDate": "Birth Date"
+  },
+  "songDetails": {
+    "loading": "Loading...",
+    "goBack": "Go Back",
+    "title": "Song Details",
+    "songTitle": "Title",
+    "artist": "Artist",
+    "translation": "Translation",
+    "videoPlayer": "YouTube video player",
+    "noVideo": "No video available."
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email format",
+    "invalidUrl": "Invalid URL format. Must be a YouTube video.",
+    "passwordStrength": "Password must contain at least 8 characters, one letter, one number, and one special character"
+  },
+  "messages": {
+    "songAdded": "Song added successfully!",
+    "songUpdated": "Song updated successfully!",
+    "songDeleted": "Song deleted successfully!",
+    "errorOccurred": "An error occurred. Please try again later."
+  },
+  "favourites": {
+    "addToFavourites": "Add to Favourites",
+    "song": "Song",
+    "rating": "Rating",
+    "title": "Favourites",
+    "loading": "Loading favourites...",
+    "noFavourites": "No favourites found. Start adding some!",
+    "errorFetching": "Error fetching favourites"
+  },
+  "profile": {
+    "title": "Profile",
+    "username": "Username",
+    "email": "Email",
+    "birthDate": "Birth Date",
+    "language": "Language",
+    "editProfile": "Edit Profile",
+    "deleteAccount": "Delete Account",
+    "confirmDelete": "Are you sure you want to delete your account? This action cannot be undone.",
+    "deleteSuccess": "Account deleted successfully.",
+    "deleteError": "Error deleting account:",
+    "deleteFailed": "Failed to delete account.",
+    "loading": "Loading...",
+    "errorFetchingUser": "Error fetching user details:",
+    "errorFetchingSongs": "Error fetching top songs:",
+    "invalidUrl": "Invalid URL format.",
+    "topSongs": "Top 5 Favourite Songs",
+    "rating": "Rating"
+  }
+}

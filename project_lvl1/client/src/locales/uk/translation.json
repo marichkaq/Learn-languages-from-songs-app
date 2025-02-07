@@ -1,0 +1,101 @@
+{
+  "general": {
+    "add": "Додати",
+    "edit": "Редагувати",
+    "delete": "Видалити",
+    "save": "Зберегти",
+    "cancel": "Скасувати",
+    "back": "Назад",
+    "submit": "Відправити",
+    "loading": "Завантаження...",
+    "error": "Сталася помилка"
+  },
+  "home": {
+    "appName": "Вивчай мову з пісень",
+    "welcome": "Ласкаво просимо, {{username}}!",
+    "guest": "Гість",
+    "searchPlaceholder": "Шукайте пісню...",
+    "languageSwitcher": {
+      "french": "Французька",
+      "italian": "Італійська",
+      "ukrainian": "Українська"
+    },
+    "allLanguages": "Усі мови",
+    "favourites": "Улюблені",
+    "profile": "Профіль",
+    "rightsReserved": "Всі права захищені."
+  },
+"song": {
+    "addSong": "Додати Пісню",
+    "editSong": "Редагувати Пісню",
+    "songDetails": "Деталі Пісні",
+    "title": "Назва",
+    "artist": "Виконавець",
+    "lyrics": "Текст",
+    "translation": "Переклад",
+    "videoUrl": "Посилання на відео",
+    "language": "Мова",
+    "noVideo": "Відео недоступне"
+  },
+  "songDetails": {
+    "loading": "Завантаження...",
+    "goBack": "Назад",
+    "title": "Деталі пісні",
+    "songTitle": "Назва",
+    "artist": "Артист",
+    "translation": "Переклад",
+    "videoPlayer": "Програвач YouTube",
+    "noVideo": "Відео недоступне."
+  },
+"auth": {
+    "login": "Увійти",
+    "logout": "Вийти",
+    "register": "Зареєструватися",
+    "username": "Ім'я користувача",
+    "email": "Електронна пошта",
+    "password": "Пароль",
+    "confirmPassword": "Підтвердити пароль",
+    "languagePreference": "Бажана мова",
+    "birthDate": "Дата народження"
+  },
+  "validation": {
+    "required": "Це поле є обов'язковим",
+    "invalidEmail": "Неправильний формат електронної пошти",
+    "invalidUrl": "Неправильний формат URL. Має бути відео з YouTube",
+    "passwordStrength": "Пароль має містити щонайменше 8 символів, одну літеру, одну цифру та один спеціальний символ"
+  },
+  "messages": {
+    "songAdded": "Пісню успішно додано!",
+    "songUpdated": "Пісню успішно оновлено!",
+    "songDeleted": "Пісню успішно видалено!",
+    "errorOccurred": "Сталася помилка. Спробуйте пізніше."
+  },
+  "favourites": {
+    "addToFavourites": "Додати до улюбленого",
+    "song": "Пісня",
+    "title": "Улюблені",
+    "loading": "Завантаження улюблених...",
+    "noFavourites": "Не знайдено улюблених. Почніть додавати їх!",
+    "rating": "Рейтинг",
+    "errorFetching": "Помилка під час отримання улюблених"
+  },
+  "profile": {
+    "title": "Профіль",
+    "username": "Ім'я користувача",
+    "email": "Електронна пошта",
+    "birthDate": "Дата народження",
+    "language": "Мова",
+    "editProfile": "Редагувати профіль",
+    "deleteAccount": "Видалити акаунт",
+    "confirmDelete": "Ви впевнені, що хочете видалити свій акаунт? Цю дію не можна скасувати.",
+    "deleteSuccess": "Акаунт успішно видалено.",
+    "deleteError": "Помилка видалення акаунта:",
+    "deleteFailed": "Не вдалося видалити акаунт.",
+    "loading": "Завантаження...",
+    "errorFetchingUser": "Помилка завантаження профілю:",
+    "errorFetchingSongs": "Помилка завантаження улюблених пісень:",
+    "invalidUrl": "Неправильний формат URL.",
+    "topSongs": "Топ-5 улюблених пісень",
+    "rating": "Рейтинг"
+  }
+}

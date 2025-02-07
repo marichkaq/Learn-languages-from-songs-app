@@ -1,0 +1,101 @@
+{
+  "general": {
+    "add": "Dodaj",
+    "edit": "Edytuj",
+    "delete": "Usuń",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "back": "Powrót",
+    "submit": "Wyślij",
+    "loading": "Ładowanie...",
+    "error": "Wystąpił błąd"
+  },
+  "home": {
+    "appName": "Ucz się języka z piosenek",
+    "welcome": "Witaj, {{username}}!",
+    "guest": "Gość",
+    "searchPlaceholder": "Szukaj piosenki...",
+    "languageSwitcher": {
+      "french": "Francuski",
+      "italian": "Włoski",
+      "ukrainian": "Ukraiński"
+    },
+    "allLanguages": "Wszystkie języki",
+    "favourites": "Ulubione",
+    "profile": "Profil",
+    "rightsReserved": "Wszelkie prawa zastrzeżone."
+  },
+  "song": {
+    "addSong": "Dodaj Piosenkę",
+    "editSong": "Edytuj Piosenkę",
+    "songDetails": "Szczegóły Piosenki",
+    "title": "Tytuł",
+    "artist": "Wykonawca",
+    "lyrics": "Tekst",
+    "translation": "Tłumaczenie",
+    "videoUrl": "URL Wideo",
+    "language": "Język",
+    "noVideo": "Brak dostępnego wideo"
+  },
+  "songDetails": {
+    "loading": "Ładowanie...",
+    "goBack": "Wróć",
+    "title": "Szczegóły utworu",
+    "songTitle": "Tytuł",
+    "artist": "Artysta",
+    "translation": "Tłumaczenie",
+    "videoPlayer": "Odtwarzacz YouTube",
+    "noVideo": "Brak dostępnego wideo."
+  },
+  "auth": {
+    "login": "Zaloguj się",
+    "logout": "Wyloguj się",
+    "register": "Zarejestruj się",
+    "username": "Nazwa użytkownika",
+    "email": "Email",
+    "password": "Hasło",
+    "confirmPassword": "Potwierdź Hasło",
+    "languagePreference": "Preferowany Język",
+    "birthDate": "Data Urodzenia"
+  },
+  "validation": {
+    "required": "To pole jest wymagane",
+    "invalidEmail": "Nieprawidłowy format adresu email",
+    "invalidUrl": "Nieprawidłowy format URL. Musi to być wideo z YouTube.",
+    "passwordStrength": "Hasło musi zawierać co najmniej 8 znaków, jedną literę, jedną cyfrę i jeden znak specjalny"
+  },
+  "messages": {
+    "songAdded": "Piosenka została pomyślnie dodana!",
+    "songUpdated": "Piosenka została pomyślnie zaktualizowana!",
+    "songDeleted": "Piosenka została pomyślnie usunięta!",
+    "errorOccurred": "Wystąpił błąd. Spróbuj ponownie później."
+  },
+  "favourites": {
+    "addToFavourites": "Dodaj do ulubionych",
+    "song": "Piosenka",
+    "title": "Ulubione",
+    "loading": "Ładowanie ulubionych...",
+    "noFavourites": "Nie znaleziono ulubionych. Zacznij je dodawać!",
+    "rating": "Ocena",
+    "errorFetching": "Błąd podczas pobierania ulubionych"
+  },
+  "profile": {
+    "title": "Profil",
+    "username": "Nazwa użytkownika",
+    "email": "Email",
+    "birthDate": "Data urodzenia",
+    "language": "Język",
+    "editProfile": "Edytuj profil",
+    "deleteAccount": "Usuń konto",
+    "confirmDelete": "Czy na pewno chcesz usunąć swoje konto? Tej akcji nie można cofnąć.",
+    "deleteSuccess": "Konto zostało pomyślnie usunięte.",
+    "deleteError": "Błąd podczas usuwania konta:",
+    "deleteFailed": "Nie udało się usunąć konta.",
+    "loading": "Ładowanie...",
+    "errorFetchingUser": "Błąd pobierania szczegółów użytkownika:",
+    "errorFetchingSongs": "Błąd pobierania ulubionych piosenek:",
+    "invalidUrl": "Nieprawidłowy format URL.",
+    "topSongs": "Top 5 Ulubionych Piosenek",
+    "rating": "Ocena"
+  }
+}
